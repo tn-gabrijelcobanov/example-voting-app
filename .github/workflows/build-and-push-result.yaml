@@ -35,7 +35,7 @@ jobs:
       
       - name: Update Kubernetes manifest
         run: |
-          cd k8s-manifests
+          cd ./k8s-manifests
           kustomize edit set image ghcr.io/tn-gabrijelcobanov/example-voting-app-result-service=ghcr.io/${{ github.actor }}/example-voting-app-result-service:${{ github.sha }}
 
       - name: Commit and push changes of the manifest
