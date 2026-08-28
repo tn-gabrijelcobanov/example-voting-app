@@ -1,4 +1,4 @@
-name: Build and push the Vote service
+name: Build and push the Vote service to github repository
 
 on:
   # we want pull requests so we can build(test) but not push to image registry
