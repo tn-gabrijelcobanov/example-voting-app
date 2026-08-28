@@ -1,4 +1,4 @@
-name: Build and push the Worker service
+name: Build and push the Worker service to github image repository
 
 on:
   # we want pull requests so we can build(test) but not push to image registry
