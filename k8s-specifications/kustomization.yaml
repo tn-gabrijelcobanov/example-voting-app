@@ -13,7 +13,7 @@ resources:
 images:
 - name: ghcr.io/tn-gabrijelcobanov/example-voting-app-result-service
   newName: ghcr.io/tn-gabrijelcobanov/example-voting-app-result-service
-  newTag: c56b4baa15ceb6ececc0dc308ab9968c1ba68574
+  newTag: 50d89bf3ef03e9080d56bf134cb650fade213f51
 - name: ghcr.io/tn-gabrijelcobanov/example-voting-app-vote-service
   newName: ghcr.io/tn-gabrijelcobanov/example-voting-app-vote-service
   newTag: ef1d580f374ce3ca6e3f14d7b489861859dd7257
