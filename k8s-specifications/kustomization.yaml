@@ -11,6 +11,9 @@ resources:
 - db-deployment.yaml
 - db-service.yaml
 images:
+- name: ghcr.io/tn-gabrijelcobanov/example-voting-app-vote-service
+  newName: ghcr.io/tn-gabrijelcobanov/example-voting-app-vote-service
+  newTag: 8ad09f9f308126df586f9a2db79416900eb4c8ed
 - name: ghcr.io/tn-gabrijelcobanov/example-voting-app-worker-service
   newName: ghcr.io/tn-gabrijelcobanov/example-voting-app-worker-service
   newTag: bb9210898c9418132ea9d66562163236b5b11830
